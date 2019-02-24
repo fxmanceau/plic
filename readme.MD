@@ -58,7 +58,7 @@
 
 ## Install
 - Use a web server or MAMP (needed for fetch and lyrics files)
-- Or see [here](francoisxaviermanceau.fr/lab/plic)
+- Or see [here](https://francoisxaviermanceau.fr/lab/plic)
 
 ## Compatibility
 ### Works on :
