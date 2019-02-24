@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>Plic - Music Player</title>
+    <link rel="stylesheet" href="./style/reset.min.css">
+    <link rel="stylesheet" href="./style/style.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Antic+Didone|Montserrat:400,700" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/icons/plic.jpg">
+</head> 
+<body>
+    <main class="music-illustrations">
+        <div class="images-container">
+            <div class="main-image not-animated loading"></div>
+            <div class="bio-image not-animated loading"></div>
+        </div>
+        <div class="lyrics-container">
+            <span class="lyrics-title">LYRICS</span>
+            <div class="lyrics-current-time">
+                <span class="first-lyric hide-lyric"></span>
+            </div>
+        </div>
+    </main>
+    <div class="controls-player">
+        <div class="played">
+            <div class="album-image not-animated loading">
+                <img class="main-color-base-image" src="">
+            </div>
+            <div class="music-information">
+                <span class="title not-animated-music-information"></span>
+                <span class="author-album not-animated-music-information"></span>
+            </div>
+        </div>
+        <div class="controls">
+            <audio src="" preload="metadata">
+                <track src="./lyrics/odesza-higher_ground.vtt" kind="subtitles" srclang="en" label="English" default>
+            </audio>
+            <div class="audio-time-control">
+                <span class="current-time"></span>
+                <div class="seek-bar-time">
+                    <div class="fill-time"></div>
+                    <div class="dot-seek-bar-time"></div> 
+                </div>
+                <span class="duration"></span>
+            </div>
+            <div class="buttons-controls-music">
+                <button class="button-control random-button is-not-active"></button>
+                <button class="button-control skip-backward-button"></button>
+                <button class="button-control play-button is-not-active"></button>
+                <button class="button-control skip-forward-button"></button>
+                <button class="button-control repeat-button is-not-active"></button>
+            </div>
+        </div>
+        <div class="volume">
+            <button class="button-control toggle-volume"></button>
+            <div class="seek-bar-volume">
+                <div class="fill-volume"></div>
+                <div class="dot-seek-bar-volume"></div>
+            </div>
+        </div>
+    </div>
+   <script src="./script/script.min.js"></script> 
+</body> 
+</html> 
